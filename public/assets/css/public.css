@@ -1,0 +1,38 @@
+body {
+  background-image: url("../img/jsimage.png");
+    background-attachment: fixed;
+    opacity: 0.95;
+}
+
+h1 {
+    color: #000000!important;
+  }
+  
+  .bg-danger {
+    background-color: #b21f2d!important;
+  }
+
+  .jumbotron {
+    background-color: #f1dc4f;
+  }
+  
+  @media (min-width: 1px) {
+    .display-1 {
+        font-size: 4rem
+    }
+  }
+  
+  @media (min-width: 576px) {
+    .display-1{
+        font-size: 5rem
+    }
+    
+  }
+  
+  /*Medium devices (tablets, 768px and up)*/
+  @media (min-width: 768px) {
+    .display-1 {
+        font-size: 6rem
+    }
+    
+  }
